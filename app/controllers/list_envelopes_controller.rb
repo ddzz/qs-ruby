@@ -22,7 +22,7 @@ class ListEnvelopesController < ApplicationController
   #
   def index
     # Fill in these constants:
-    # Obtain an OAuth token from https://developers.hqtest.tst/oauth-token-generator
+    # Obtain an OAuth token from https://developers.docusign.com/oauth-token-generator
     access_token = '{ACCESS_TOKEN}'
 
     # Obtain your accountId from demo.docusign.com -- the account id is shown in the drop down on the
