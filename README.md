@@ -35,7 +35,7 @@ For more information, see the
 
 ## Installation
 
-This example uses Ruby version 2.5.3 but will work with many other versions of Ruby.
+This example uses Ruby version 2.7.0 but will work with many other versions of Ruby.
 
 Download or clone this repository to a file directory.
 Then:
