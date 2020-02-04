@@ -21,14 +21,14 @@ use the DocuSign DevCenter's
 [OAuth token generator](https://developers.docusign.com/oauth-token-generator)
 to create an access token.
 
-For a Ruby on Rails code example launcher, including Omniauth authentication 
-via the Authorization Code Grant flow and 14 workflow code examples, see 
+For a Ruby on Rails code example launcher, including Omniauth authentication
+via the Authorization Code Grant flow and 14 workflow code examples, see
 the [eg-03-ruby-auth-code-grant](https://github.com/docusign/eg-03-ruby-auth-code-grant)
 repository.
 
 For a Ruby JWT authentication example, see the
 [eg-01-ruby-jwt](https://github.com/docusign/eg-01-ruby-jwt)
-repository. 
+repository.
 
 For more information, see the
 [DocuSign DevCenter Code Examples section](https://developers.docusign.com/esign-rest-api/code-examples).
@@ -42,7 +42,7 @@ Then:
 
 ````
 cd qs-ruby
-bundler install
+bundle install
 ````
 
 ### Configure the example's settings
@@ -64,19 +64,19 @@ file:
    ![Figure](https://raw.githubusercontent.com/docusign/qs-python/master/documentation/account_id.png)
  * **Signer name and email:** Remember to try the DocuSign signing ceremony using both a mobile phone and a regular
    email client.
-   
+
  Configure the access token, account id, and your email address in each of the three
  files:
- 
+
  1. [embedded_signing_controller.rb](https://github.com/docusign/qs-ruby/blob/master/app/controllers/embedded_signing_controller.rb)
  1. [send_envelope_controller.rb](https://github.com/docusign/qs-ruby/blob/master/app/controllers/send_envelope_controller.rb)
  1. [list_envelopes_controller.rb](https://github.com/docusign/qs-ruby/blob/master/app/controllers/list_envelopes_controller.rb)
- 
+
 
 ## Run the examples launcher
 
 ````
-rails s
+bundle exec rails s
 ````
 
 Then use your web browser to navigate to http://localhost:3000
